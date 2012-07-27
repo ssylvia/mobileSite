@@ -608,6 +608,10 @@ a.ui-link-inherit {
     font-size:18px;
 }
 
+.ui-body-a .ui-link{
+    font-weight:normal;
+}
+
 .menuHeader{
     padding:10px;
     font-weight:bold;
@@ -618,4 +622,22 @@ a.ui-link-inherit {
 .menuContent{
     padding:10px;
     display:none;
+}
+
+.toggleIcon{
+    float:right;
+}
+
+.twitterIcon{
+    display:none;
+    background-image:url("images/twitter.png");
+    width:20px;
+    overflow:hidden;
+}
+
+.mailIcon{
+    display:none;
+    background-image:url("images/mail.png");
+    width:26px;
+    overflow:hidden;
 }
