@@ -13,7 +13,7 @@
 -----------------------------------------------------------------------------------------------------------*/
 
 .ui-bar-a {
-	border: 1px solid #dadada /*{a-bar-border}*/;
+	border: 1px solid #444 /*{a-bar-border}*/;
 	background: #eeeeee /*{a-bar-background-color}*/;
 	color: #f7f7f7 /*{a-bar-color}*/;
 	font-weight: bold;
@@ -603,9 +603,13 @@ a.ui-link-inherit {
 	outline-style: auto;
 }
 
+#homePage{
+    background:#ccc;
+}
+
 .ui-header .ui-title, .ui-footer .ui-title{
     margin:.6em 0 .8em;
-    font-size:18px;
+    font-size:20px;
 }
 
 .ui-body-a .ui-link{
@@ -613,13 +617,16 @@ a.ui-link-inherit {
 }
 
 .menuHeader{
+    background:#f7f7f7;
     padding:10px;
     font-weight:bold;
-    border-top:1px solid #ccc;
+    font-size:18px;
+    border-top:1px solid #444;
     cursor:pointer;
 }
 
 .menuContent{
+    background:#f7f7f7;
     padding:10px;
     display:none;
 }
@@ -640,4 +647,103 @@ a.ui-link-inherit {
     background-image:url("images/mail.png");
     width:26px;
     overflow:hidden;
+}
+
+#home{
+    background-image:url("images/home.png");
+    float:left;
+    margin-left:10px;
+    width:25px;
+    overflow:hidden;
+}
+
+.recentCon{
+    width:100%;
+    padding:0;
+}
+
+.imgCon{
+    width:200px;
+    height:133px;
+    background-color:#fff;
+    background-repeat:no-repeat;
+    margin:auto;
+    border:5px solid #fff;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+ul{
+    list-style-type: square;
+}
+
+#slider{
+    background:#ccc;
+}
+
+#position {
+    text-align:center;
+    color:#fff;
+    font-size:24px;
+    margin-top:-15px
+}
+
+.pos{
+    margin:0 8px 0 8px;
+    cursor:pointer;
+}
+
+.on{
+    color:#444;
+}
+
+.storyText{
+    padding:10px;
+}
+
+.collapse{
+    text-align:center;
+    font-size:12px;
+    font-weight:bold;
+    cursor:pointer;
+    padding-top:10px;
+}
+
+.ui-btn{
+    background:#ccc;
+}
+
+.prevArrow {
+    position:absolute;
+    width: 0;
+    height: 0;
+    margin-top:72px;
+    left:10px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #444;
+    cursor:pointer;
+    z-index:100;
+}
+
+.nextArrow {
+    position:absolute;
+    width: 0;
+    height: 0;
+    margin-top:72px;
+    right:10px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #444;
+    cursor:pointer;
+    z-index:100;
+}
+
+#homeButton{
+    position:absolute;
+    font-size:14px;
+    color:#f7f7f7;
+    font-weight:normal;
+    margin:15px 0 0 10px;
+    text-decoration:none;
 }
