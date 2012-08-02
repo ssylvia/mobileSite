@@ -92,18 +92,6 @@ var queryAll = function(){
                 $("#storiesGallery").append("<li style='display:none'><div id='storyCon"+i+"' class='storyCon'><div id='storyImg"+i+"' class='imgCon storyCon' style='background-image:url("+story.thumbnailUrl+");'></div><p id='storyText"+i+"' class='storyText'><strong style='font-size:18px'>"+story.title+"</strong><br>"+story.snippet+"<br><br><em style='font-size:14px'>Visit our website on your desktop or iPad to view the full story.</em></p></li>");
             }
         });
-
-        _storySwipe = new Swipe(document.getElementById('appSlider'), {
-            startSlide: 0,
-            speed: 400
-        });
-        
-        $("#prevStory").click(function(){
-            _storySwipe.prev();
-        });
-        $("#nextStory").click(function(){
-            _storySwipe.next();
-        });
     });
 };
 

@@ -23,18 +23,19 @@
     </head>
     <body>
 
+    <div id='prevArrowMain' class='prevArrow'></div>
+    <div id='nextArrowMain' class='nextArrow'></div>
+
         <div id="homePage" data-role="page" data-theme="a">
 
             <div data-role="header">
                 <h1>Storytelling with maps</h1>
             </div><!-- /header -->
-            <div id='prevArrowMain' class='prevArrow'></div>
-            <div id='nextArrowMain' class='nextArrow'></div>
             <div id='slider'>
                 <ul style='padding:0;'>
-                    <li style='display:block'><div id='recent0' class='recentCon'><div id='imgCon0' class='imgCon recentImg'></div></div></li>
-                    <li style='display:none'><div id='recent1' class='recentCon'><div id='imgCon1' class='imgCon recentImg'></div></div></li>
-                    <li style='display:none'><div id='recent2' class='recentCon'><div id='imgCon2' class='imgCon recentImg'></div></div></li>
+                    <li style='display:block'><div id='recent0' class='recentCon'><a href="#ourStories"><div id='imgCon0' class='imgCon recentImg'></div></a></div></li>
+                    <li style='display:none'><div id='recent1' class='recentCon'><a href="#ourStories"><div id='imgCon1' class='imgCon recentImg'></div></a></div></li>
+                    <li style='display:none'><div id='recent2' class='recentCon'><a href="#ourStories"><div id='imgCon2' class='imgCon recentImg'></div></a></div></li>
                 </ul>
                 <div id='position'><em id='pos0' class='pos on'>&bull;</em><em id='pos1' class='pos'>&bull;</em><em id='pos2' class='pos'>&bull;</em></div>
             </div>
@@ -68,8 +69,6 @@
                 <span><a id="homeButton" href="#homePage">BACK</a></span>
                 <h1>Our Stories</h1>
             </div><!-- /header -->
-            <div id='prevStory' class='prevArrow'></div>
-            <div id='nextStory' class='nextArrow'></div>
             <div id='appSlider'>
                 <ul id='storiesGallery' style='padding:0;'>
                 </ul>
